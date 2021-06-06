@@ -29,6 +29,7 @@ nav {
 .container {
   height: 100vh;
   overflow-y: scroll;
+  overflow-x: hidden;
 }
 
 p {
@@ -51,7 +52,7 @@ a:link {
 
 /* visited link */
 a:visited {
-  color: cyan;
+  color: blueviolet;
 }
 
 /* mouse over link */
