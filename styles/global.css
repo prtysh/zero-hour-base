@@ -1,0 +1,65 @@
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #000000;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #444444;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #660000;
+}
+
+body {
+  background-color: #000000;
+  color: beige;
+}
+
+nav {
+  padding: 0 0 1em 0;
+}
+.container {
+  height: 100vh;
+  overflow-y: scroll;
+}
+
+p {
+  margin: 1em 0px;
+}
+
+h2 {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.navbar {
+  background-color: black;
+  color: beige;
+}
+
+a:link {
+  color: red;
+}
+
+/* visited link */
+a:visited {
+  color: cyan;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
